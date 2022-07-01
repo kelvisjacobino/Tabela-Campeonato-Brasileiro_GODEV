@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tabela {
+  border: solid#DDDDDD;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabela td {
+  padding: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  border: #dddddd solid 1px;
+}
+.nomeTimes {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  align-items: left;
+}
+.colunaTitulos {
+  font-size: 13px;
+  color: #999999;
+  font-weight: bold;
+  align-items: center;
+}
+
+/* Libertadores */
+td {
+  border-top: solid 1px #dddddd;
+  border-bottom: solid 1px #dddddd;
+}
+.tb-content-libertadores .pontos {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+
+.tb-content-libertadores .vitorias,
+.derrota,
+.golContra {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.tb-content-libertadores .pontos {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+
+.tb-content-libertadores .percentual {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.tb-content-libertadores .posicao {
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+  color: #003366;
+}
+
+.tb-content-libertadores .jogos,
+.empates,
+.golPro,
+.saldoGol {
+  font-size: 14px;
+}
+
+/* PreLiberta Santos */
+
+.tb-content-preLiberta td {
+  border-bottom: #cccccc solid 2px;
+}
+
+.tb-content-preLiberta .posicao {
+  color: #1398be;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+.tb-content-preLiberta .jogos,
+.empates,
+.golPro,
+.saldoGol {
+  font-size: 14px;
+}
+.tb-content-preLiberta .percentual {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.tb-content-preLiberta .vitorias,
+.derrota,
+.golContra {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.tb-content-preLiberta .pontos {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+/* Sulamericana */
+.tb-content-sulAmericana .jogos,
+.empates,
+.golPro,
+.saldoGol {
+  font-size: 14px;
+}
+.tb-content-sulAmericana .posicao {
+  color: #de9800;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+.tb-content-sulAmericana .percentual {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.tb-content-sulAmericana .vitorias,
+.derrota,
+.golContra {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.tb-content-sulAmericana .pontos {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+
+/* ZonaRebaixamento */
+.tb-content-zona .linhaGrossa {
+  border-bottom: solid 2px #dddddd;
+}
+.tb-content-zona .jogos,
+.empates,
+.golPro,
+.saldoGol {
+  font-size: 14px;
+}
+.tb-content-zona .posicao {
+  color: #cccccc;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+.tb-content-zona .percentual {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.tb-content-zona .vitorias,
+.derrota,
+.golContra {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.tb-content-zona .pontos {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+/* Rebaixados */
+
+.tb-content-rebaixados .jogos,
+.empates,
+.golPro,
+.saldoGol {
+  font-size: 14px;
+}
+.tb-content-rebaixados .posicao {
+  color: #c91b04;
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+.tb-content-rebaixados .percentual {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.tb-content-rebaixados .vitorias,
+.derrota,
+.golContra {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.tb-content-rebaixados .pontos {
+  color: black;
+  font-size: 14px;
+  align-items: center;
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
+/* Rodape */
+.legendaClassificados {
+  color: #8f8f8f;
+  font-family: "Arial";
+  font-size: 10px;
+  text-align: left;
+  line-height: 15px;
+  margin-top: 5px;
+  font-weight: 100;
+  word-spacing: 5px;
+  padding-left: 10px;
+  border-bottom-color: white;
+}
+
+.quadrado1 {
+  color: #003366;
+}
+
+.quadrado2 {
+  color: #1398be;
+}
+
+.quadrado3 {
+  color: #de9800;
+}
+
+.quadrado4 {
+  color: #c91b04;
+}
+
+.legendassiglas {
+  font-family: Arial;
+  color: #555555;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20px;
+}
+
+td:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+td:nth-child(1) {
+  background-color: #ffffff;
+}
